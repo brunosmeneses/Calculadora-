@@ -1,0 +1,58 @@
+body{
+	background-color: DodgerBlue;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+ }
+
+.flex-container > div, .btn{
+  background-color: black;
+  width: 63px;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.flex-container > input{
+	width: 310px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+#op{
+	font-weight: 300px;
+	font-size: 40px;
+	position:absolute;
+	top: 20px;
+	left: 39%;
+}
+
+.btn{
+	margin: auto;
+	border-radius: 30px;
+	background-color: #fff;
+	align-self: center;
+	
+}
+.flex-container > .btn-igual, .igual{
+	background-color:#57acff;
+	flex-basis: 150px;
+	border: 0px;
+}
+
+.flex-container > div:hover {
+	border: 3px solid #fff;
+	box-shadow: 2px 2px 2px #fff;
+}
+.igual{
+	width: 150px;
+	border: none;
+}
